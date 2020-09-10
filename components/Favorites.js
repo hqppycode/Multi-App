@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
-const Weather = () => {
+const Favorites = () => {
   return (
     <Container>
-      <Placeholder src="/images/sun-placeholder.png" />
+      <Placeholder src="/images/favorites-placeholder.png" />
     </Container>
   );
 };
 
-export default Weather;
+export default Favorites;
 
 const Container = styled.div`
   width: 50%;

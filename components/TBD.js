@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
-const Weather = () => {
+const TBD = () => {
   return (
     <Container>
-      <Placeholder src="/images/sun-placeholder.png" />
+      <Placeholder src="/images/TBD-placeholder.png" />
     </Container>
   );
 };
 
-export default Weather;
+export default TBD;
 
 const Container = styled.div`
   width: 50%;

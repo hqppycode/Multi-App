@@ -1,24 +1,30 @@
 import Head from "next/head";
-import Weather from "../components/Weather";
 import styled from "styled-components";
-// import styles from "../styles/Home.module.css";
+
+// Components
+import Weather from "../components/Weather";
+import Todo from "../components/Todo";
+import Favorites from "../components/Favorites";
+import TBD from "../components/TBD";
 
 const Home = () => {
   return (
-    <Container>
+    <Wrapper>
       <Head>
         <title>Multi-App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Weather />
-      <Weather />
-      <Weather />
-      <Weather />
-    </Container>
+      <Todo />
+      <Favorites />
+      <TBD />
+    </Wrapper>
   );
 };
 
-const Container = styled.div`
+// Styles
+const Wrapper = styled.div`
   max-width: 900px;
   height: 100vh;
   display: flex;

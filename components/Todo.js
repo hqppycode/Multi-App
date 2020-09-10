@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
-const Weather = () => {
+const Todo = () => {
   return (
     <Container>
-      <Placeholder src="/images/sun-placeholder.png" />
+      <Placeholder src="/images/todo-placeholder.png" />
     </Container>
   );
 };
 
-export default Weather;
+export default Todo;
 
 const Container = styled.div`
   width: 50%;
