@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div>
       <Head>
-        <title>Multi-App App</title>
+        <title>Multi-App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>Hello world.</h1>
