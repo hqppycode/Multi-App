@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "amd": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "no-invalid-this": 0,
+    "react/prop-types": 0,
+    "react/react-in-jsx-scope": "off",
+    "react/no-unescaped-entities": 0
+  }
+}
