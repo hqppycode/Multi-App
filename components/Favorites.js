@@ -10,6 +10,7 @@ const Favorites = () => {
 
 export default Favorites;
 
+// Styles
 const Container = styled.div`
   width: 50%;
   height: 50%;
@@ -19,6 +20,6 @@ const Container = styled.div`
 `;
 
 const Placeholder = styled.img`
-  width: 100%;
+  width: 50%;
   display: block;
 `;
