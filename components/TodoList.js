@@ -65,7 +65,7 @@ const TodoList = () => {
         }
         h1 {
           color: #222;
-          font-size: 3rem;
+          font-size: 2.5rem;
         }
 
         .todo-list {
