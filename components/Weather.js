@@ -128,13 +128,13 @@ const Day = styled.div`
 `;
 
 const Bold = styled.div`
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-right: 1rem;
 `;
 
 const BoldSmall = styled.div`
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
   margin-right: 1rem;
   color: #444;
