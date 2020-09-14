@@ -115,7 +115,7 @@ const Container = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 50px 50px 50px;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   font-weight: 400;
   color: #222;
 `;
@@ -134,7 +134,7 @@ const Bold = styled.div`
 `;
 
 const BoldSmall = styled.div`
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 400;
   margin-right: 1rem;
   color: #444;
