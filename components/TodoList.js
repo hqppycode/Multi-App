@@ -62,9 +62,10 @@ const TodoList = () => {
           font-size: 2em;
           box-sizing: border-box;
           color: #fff;
+          background-color: #333;
         }
         h1 {
-          color: #222;
+          color: #fff;
           font-size: 2rem;
         }
 

@@ -13,7 +13,7 @@ const Favorites = () => {
         <Placeholder src="/images/cards2.png" />
       </Fav>
       <Fav href="http://www.youtube.com/">
-        <Placeholder src="/images/youtube.jpg" />
+        <Placeholder src="/images/youtubet.png" />
       </Fav>
       <Fav href="http://www.facebook.com/">
         <PlaceholderLast src="/images/Facebook-Logo.png" />

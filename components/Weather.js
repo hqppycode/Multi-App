@@ -117,7 +117,8 @@ const Container = styled.div`
   grid-template-rows: 50px 50px 50px;
   font-size: 1.25rem;
   font-weight: 400;
-  color: #222;
+  color: #fff;
+  background-color: #333;
 `;
 
 const Day = styled.div`
@@ -137,7 +138,7 @@ const BoldSmall = styled.div`
   font-size: 1.5rem;
   font-weight: 400;
   margin-right: 1rem;
-  color: #444;
+  color: #fff;
 `;
 
 const DaySmall = styled.div`
@@ -146,7 +147,7 @@ const DaySmall = styled.div`
   justify-content: flex-start;
   align-items: center;
   font-size: 1.25rem;
-  color: #444;
+  color: #fff;
 `;
 
 // API key for openweathermap

@@ -56,9 +56,12 @@ const Home = () => {
 export default Home;
 
 const Wrapper = styled.div`
-  width: 98%;
+  width: 100%;
   height: 100vh;
-  margin: 0.5rem auto 0 auto;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  background-color: #333;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
   grid-template-rows: 160px 1fr 120px;
