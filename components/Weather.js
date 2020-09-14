@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { useState, useEffect } from "react";
+import Time from "../components/Time";
 
 const Weather = () => {
   // Current Weather
@@ -102,6 +103,7 @@ const Weather = () => {
         <img src={dayAfterIcon} alt="Weather Icon" />
         {dayAfterMain}
       </DaySmall>
+      <Time />
     </Container>
   );
 };
@@ -114,7 +116,7 @@ const Container = styled.div`
   height: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 100px;
   font-size: 1.25rem;
   font-weight: 400;
   color: #fff;

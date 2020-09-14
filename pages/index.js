@@ -7,6 +7,7 @@ import TodoList from "../components/TodoList";
 import Favorites from "../components/Favorites";
 import Pictures from "../components/Pictures";
 
+
 const Home = () => {
   return (
     <Wrapper>
@@ -64,7 +65,7 @@ const Wrapper = styled.div`
   background-color: #333;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
-  grid-template-rows: 160px 1fr 120px;
+  grid-template-rows: 200px 1fr 120px;
   grid-template-areas:
     "w t t t"
     "p t t t"
