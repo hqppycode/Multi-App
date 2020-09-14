@@ -56,8 +56,8 @@ const Home = () => {
 export default Home;
 
 const Wrapper = styled.div`
-  width: 1350px;
-  height: 730px;
+  width: 98%;
+  height: 100vh;
   margin: 0.5rem auto 0 auto;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
