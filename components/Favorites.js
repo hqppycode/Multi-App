@@ -16,7 +16,10 @@ const Favorites = () => {
         <Placeholder src="/images/youtubet.png" />
       </Fav>
       <Fav href="http://www.facebook.com/">
-        <PlaceholderLast src="/images/Facebook-Logo.png" />
+        <Placeholder src="/images/Facebook-Logo.png" />
+      </Fav>
+      <Fav href="http://www.oldman.vercel.app">
+        <PlaceholderLast src="/images/tree.png" />
       </Fav>
     </Container>
   );
